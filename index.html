@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="styles/style.css" media="all">
 </head>
+
 <body>
 
     <main>
@@ -14,19 +17,23 @@
 
             </div>
             <div id="formlogin">
-                
+
                 <h1>Login</h1>
-                <p>Seja Bem-Vindo(a). Faça login para acessar sua conta</p>
+                <p>Seja Bem-Vindo(a). Faça login para acessar sua conta e poder verificar seus ingressos do seu
+                    ambiente.</p>
                 <form action="login.php" method="post">
-                    <input class="inputlogin" type="email" name="" id="emailuser">
-                    <input class="inputlogin" type="password" name="" id="passuser">
+                    <input class="inputlogin" type="email" name="" id="emailuser" required>
+                
+                    <input class="inputlogin" type="password" name="" id="passuser" required>
 
                     <input id="inputsubmit" type="submit" value="Entrar">
-                    
+                    <input id="inputbutton" type="button" value="Esqueci a senha"> 
+
                 </form>
             </div>
         </section>
     </main>
-    
+
 </body>
+
 </html>

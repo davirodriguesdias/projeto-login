@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -14,26 +14,42 @@ html, body {
 
 main {
     height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  rgb(1, 119, 123);;
+    background-color:  rgb(1, 119, 123);
 }
+
+#login {
+    border-radius:15px;
+    box-shadow: 0px 2px 7px 0px black;;
+}
+
 
 
 #formlogin {
     background-color: white;
-    width: 250px;
-    height: 300px;
+    width: 270px;
+    height: 310px;
     border-radius: 0px 0px 15px 15px;
     padding: 10px;
-    text-align: center;
+    
+    
 }
 
 #formlogin p {
     font-size: 0.9em;
     line-height: 20px;
     padding: 8px;
+    text-align: justify;
+}
+
+#formlogin h1 {
+    font-size: 1.5em;
+    line-height: 20px;
+    padding: 8px;
+    text-align: center;
 }
 
 #image {
@@ -42,28 +58,43 @@ main {
     background-size: cover;
     background-position: center;
     border-radius: 15px 15px 0px 0px;
-    height: 200px;
-    width: 250px;
+    height: 230px;
+    width: 270px;
 }
 
 .inputlogin {
     display: block;
     margin: auto;
-    width:220px;
+    width:240px;
     height: 35px;
     border-radius: 6px;
     border: 1px solid rgb(1, 119, 123);
+    border-left: 40px solid rgb(1, 119, 123);
     margin-bottom: 7px;
-   
-}
+    font-size: 1em;
+    padding: 5px;
+} 
 
 #inputsubmit {
     display: block;
     margin: auto;
-    width:220px;
+    width:240px;
     height: 35px;
     border-radius: 6px;
     border: none;
     background-color:  rgb(1, 102, 105);
     color: white;
+    margin-bottom: 7px;
 }
+
+#inputbutton {
+    display: block;
+    margin: auto;
+    width:240px;
+    height: 35px;
+    border-radius: 6px;
+    border: 1px solid rgb(1, 102, 105);
+    background-color: #fff ;
+    color:  rgb(1, 102, 105);
+}
+
