@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" media="all">
 </head>
 <body>
 
@@ -14,11 +14,15 @@
 
             </div>
             <div id="formlogin">
+                
                 <h1>Login</h1>
                 <p>Seja Bem-Vindo(a). Faça login para acessar sua conta</p>
                 <form action="login.php" method="post">
-                    <input type="email" name="" id="emailuser">
-                    <input type="password" name="" id="passuser">
+                    <input class="inputlogin" type="email" name="" id="emailuser">
+                    <input class="inputlogin" type="password" name="" id="passuser">
+
+                    <input id="inputsubmit" type="submit" value="Entrar">
+                    
                 </form>
             </div>
         </section>
