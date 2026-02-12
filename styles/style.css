@@ -25,6 +25,7 @@ html, body {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    transition: width .2s ease, height .2s ease;
 }
 
 
@@ -90,3 +91,58 @@ html, body {
     color:  rgb(1, 102, 105);
 }
 
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top,   rgb(1, 119, 123),   rgb(93, 112, 113));
+    }
+    
+    #login {
+        width: 80vw;
+        /* display: flex; */
+        /* transition-timing-function: ease; essa forma vale como um só */
+        /* display: flex; */
+    }
+
+    #formlogin {
+        float: right;
+        width: 70%;
+        height: 100%;
+        /* display: inline-block; */
+    }
+
+    #image {
+        float: left;
+        width: 30%;
+        height: 100%;
+        /* display: inline-block; */
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top,   rgb(1, 119, 123),   rgb(93, 112, 113));
+    }
+
+
+    #login {
+        width: 950px;
+        /* display: flex; */
+    }
+
+    #formlogin {
+        float: right;
+        width: 60%;
+        height: 100%;
+        /* display: inline-block; */
+    }
+
+    #image {
+        float: left;
+        width: 40%;
+        height: 100%;
+        /* display: inline-block; */
+    }
+}
